@@ -10,3 +10,53 @@
   width: 80px;
   width: 80px;
 }
+
+.content_principal {
+  display: block;
+  width: 70%;
+  margin: auto;  
+}
+
+.postCard {
+  width:20%;
+  min-height: 390px;
+  height: auto;
+  margin: 8px;
+  padding: 8px;
+  float:left;
+  background-color: rgba(245, 192, 0, 0.843);
+}
+
+.img_post {
+  display: block;
+  width: 80%;
+  height: auto;
+  margin:auto;
+  border-radius: 50%;
+}
+
+.owner {
+  font-size: 15px;
+}
+
+.likes_comments {
+  display: flex;
+  width:100%;
+  justify-content: space-between;
+}
+
+.likes {
+  width:50%;
+  height:30px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+}
+
+.comments {
+  width:50%;
+  height:30px;
+  background-color: red;
+  display: flex;
+  align-items: center;  ; 
+}
