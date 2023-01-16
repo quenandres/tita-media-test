@@ -1,7 +1,19 @@
-import React from 'react'
 
-export const Home = () => {
+import { useEffect, useState } from 'react';
+import { getPosts } from '../services/posts.service';
+
+const Home = () => {
+
+  useEffect(() => {   
+    getPosts();    
+  }, [])
+  
+
   return (
-    <div>Home</div>
+    <div className='content_principal'>
+
+    </div>
   )
 }
+
+export default Home;

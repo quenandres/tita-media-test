@@ -3,7 +3,7 @@ import React from 'react'
 import { handleSignInWithFacebook, handleSignInWithGitHub, handleSignInWithGoogle, handleSignInWithTwitter } from '../utils/LoginSystem';
 
 
-export const Login = () => {
+const Login = () => {
 
     const methods = [
         {
@@ -35,3 +35,5 @@ export const Login = () => {
     </div>
   )
 }
+
+export default Login;
