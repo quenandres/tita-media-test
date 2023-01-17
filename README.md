@@ -26,6 +26,50 @@ La información del usuario autenticado debe ser mostrada en el header.
 1. [x] Implementar configuracion de firebase para el login de redes sociales.
 2. [x] Crear pantalla de home con los post
 3. [x] Crear pantalla de comentarios
-4. [ ] Generar modal de datos del usuario del post
+4. [x] Generar modal de datos del usuario del post
 5. [x] Implementar filtros
    1. [x] Generar listado de tags para filtrar
+
+# Dirección del sitio
+
+https://quenandres.github.io/tita-media-test/
+
+# Tecnologías utilizadas
+
+- HTML
+- CSS
+- React
+- FireBase
+- Axios
+# Descripcion
+Para ejecutar el proyecto es necesario seguir los pasos brindandos a continuación:
+
+- Clonar repositorio:
+```bash
+git clone https://github.com/quenandres/tita-media-test
+```
+- Instalar dependencias:
+```bash
+npm install
+```
+- El proyecto se ejecutara en el puerto 5173
+- Archivo .env
+  - Es necesario tener un archivo .env con la variable de entorno llamada *VITE_API_KEY* con el api_key de dummyapi.
+
+
+## Imagenes
+>
+### Pantalla de login con redes sociales
+<img src="./src/assets/project/login.jpeg" >
+>
+
+### Pantalla de posts
+<img src="./src/assets/project/posts.jpeg" >
+>
+
+### Pantalla de comentarios
+<img src="./src/assets/project/comments.jpeg" >
+>
+
+### Pantalla de información del usuario
+<img src="./src/assets/project/user.jpeg" >
