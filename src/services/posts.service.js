@@ -14,23 +14,13 @@ export async function getPosts() {
 
 
 export const getComments = async (id) => {
-    await axios.get(`${base_url}post/${id}/comment?limit=10`, { headers })
-        .then(response => {
-            const { data } = response;
-            return data;
-        })
-        .catch(error => {
-            console.error(error);
-        });
+    const comments = await axios.get(`${base_url}post/${id}/comment?limit=10`,  { headers });
+    const resp  = await comments.data;
+    return resp;
 }
 
 export const getPostTag = async (tag) => {
-    await axios.get(`${base_url}tag/${tag}/post?limit=10`, { headers })
-        .then(response => {
-            const {data} = response;
-            return data;
-        })
-        .catch(error => {
-            console.error(error);
-        });
+    const posts = await axios.get(`${base_url}tag/${tag}/post?limit=10`,  { headers });
+    const resp  = await posts.data;
+    return resp;
 }

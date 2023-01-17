@@ -18,8 +18,9 @@
 }
 
 .postCard {
+  min-width: 200px;
   width:20%;
-  min-height: 390px;
+  max-height: 390px;
   height: auto;
   margin: 8px;
   padding: 8px;
@@ -30,7 +31,7 @@
 .img_post {
   display: block;
   width: 80%;
-  height: auto;
+  height: 150px;
   margin:auto;
   border-radius: 50%;
 }
@@ -48,7 +49,6 @@
 .likes {
   width:50%;
   height:30px;
-  background-color: red;
   display: flex;
   align-items: center;
 }
@@ -56,7 +56,31 @@
 .comments {
   width:50%;
   height:30px;
-  background-color: red;
   display: flex;
-  align-items: center;  ; 
+  align-items: center;
+}
+
+.commentsContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.cardComment {
+  margin: 5px;
+  min-width: 180px;
+  flex: 0 32%;
+  height: 100px;
+  margin-bottom: 2%; /* (100-32*3)/2 */
+  background-color: turquoise;
+}
+
+.comments_button {
+  background-color: rgb(9, 9, 9);
+  border: none;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 10%;
 }

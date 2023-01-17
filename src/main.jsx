@@ -5,6 +5,7 @@ import Login from './pages/Login';
 import Home from './pages/Home';
 import './index.css';
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -17,6 +18,6 @@ const router = createBrowserRouter([
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-    <RouterProvider router={router} />
+root.render(    
+    <RouterProvider router={router} />    
 );

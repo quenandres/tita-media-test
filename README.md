@@ -23,5 +23,9 @@ La información del usuario autenticado debe ser mostrada en el header.
 - Uso de queries y mutations de GraphQL será valorado.
 
 # _Solución_
-1. Implementar configuracion de firebase para el login de redes sociales.
-2. 
+1. [x] Implementar configuracion de firebase para el login de redes sociales.
+2. [x] Crear pantalla de home con los post
+3. [x] Crear pantalla de comentarios
+4. [ ] Generar modal de datos del usuario del post
+5. [x] Implementar filtros
+   1. [x] Generar listado de tags para filtrar
