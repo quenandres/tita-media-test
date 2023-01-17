@@ -26,11 +26,10 @@ const Login = () => {
 
 
   return (
-    <div>
-        <h1>Login</h1>
+    <div className='loginContainer'>
         { methods.map((rs, index) => {
             // return <Icon className='card_login' icon={rs.name} >{rs.name}</Icon>
-            return <div onClick={rs.action} key={index}>{rs.name}</div>
+            return <div className='social_login' onClick={rs.action} key={index}>{rs.name}</div>
         }) }
     </div>
   )

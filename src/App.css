@@ -6,6 +6,25 @@
   margin: 5px;
 }
 
+.social_login {
+  display: block;
+  width: 450px;
+  margin:auto;
+  text-align: center;
+  padding:20px;
+  background-color: bisque;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.loginContainer{
+  display: block;
+  width: 50%;
+  height: 600px;
+  margin: auto;
+  margin-top: 200px;  
+}
+
 .card_login > img {
   width: 80px;
   width: 80px;
@@ -20,7 +39,7 @@
 .postCard {
   min-width: 200px;
   width:20%;
-  max-height: 390px;
+  min-height: 420px;
   height: auto;
   margin: 8px;
   padding: 8px;
