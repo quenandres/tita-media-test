@@ -17,7 +17,7 @@ export const Tagslist = ({setFilter}) => {
     <div>
         {
             tags.map((tag, index) => {
-                return <button key={index} onClick={() => setFilter(tag)}>{tag}</button>
+                return <button className="filter_button" key={index} onClick={() => setFilter(tag)}>{tag.toUpperCase()}</button>
             })
         }
     </div>

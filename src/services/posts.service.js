@@ -24,3 +24,8 @@ export const getPostTag = async (tag) => {
     const resp  = await posts.data;
     return resp;
 }
+
+export const getUser = async (id) => {
+    const user = await axios.get(`${base_url}user/${id}`,  { headers });    
+    return user;
+}

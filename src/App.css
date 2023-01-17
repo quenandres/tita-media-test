@@ -84,3 +84,30 @@
   border: 2px solid white;
   border-radius: 10%;
 }
+
+
+.filter_button {
+  background-color: rgb(217, 255, 0);
+  border: none;
+  color: black;
+  padding: 5px;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 10%;
+  margin: 5px;
+}
+
+
+.cardUser {
+  width:50%;
+  margin:auto;
+}
+
+.cardUser > h1{
+  text-align: center;
+}
+
+.cardUser > img{
+  display: block;
+  margin:auto;
+}
